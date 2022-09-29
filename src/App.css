@@ -1,0 +1,37 @@
+.App {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #242424;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+
+#heading {
+  font-size: 8px;
+  background-color: #09f;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+div[role=form] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+section[role=feed] {
+  height: 410px;
+}
