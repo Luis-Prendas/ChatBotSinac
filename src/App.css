@@ -16,6 +16,7 @@
   overflow: hidden;
   border-radius: 5px;
   position: relative;
+  background-color: white;
 }
 
 #heading {
@@ -33,5 +34,9 @@ div[role=form] {
 }
 
 section[role=feed] {
-  height: 410px;
+  height: 350px;
+}
+
+div[role=toolbar] {
+  background-color: white;
 }
