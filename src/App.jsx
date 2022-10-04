@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import ChatBot from './components/ChatBot'
+import ChatBot2 from './components/ChatBot2'
+
 
 function App() {
 
@@ -12,9 +14,13 @@ function App() {
 
   return (
     <div className="App">
+      <span className='state'>{!state ? "Api" : "Iframe"}</span>
       <span className='icon-bot' onClick={handleClick}>👤</span>
       <div className={`bot-container ${state ? 'hidden' : ''}`}>
         <ChatBot />
+      </div>
+      <div className={`bot-container ${!state ? 'hidden' : ''}`}>
+        <ChatBot2/>
       </div>
     </div>
   )

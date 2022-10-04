@@ -71,7 +71,7 @@ export default function ChatBot() {
       </div>
       <div className="container">
         <div id="heading">
-          <h1>SINAC Chat Bot ({idBot == "11ef44f1-9a36-4413-a55f-45388563b684" ? "Español" : "Ingles"})</h1>
+          <h1>SINAC Bot Chat ({idBot == "11ef44f1-9a36-4413-a55f-45388563b684" ? "Español" : "Ingles"})</h1>
         </div>
         <div ref={webchat} role="main" />
       </div>
