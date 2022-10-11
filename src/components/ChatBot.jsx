@@ -66,12 +66,12 @@ export default function ChatBot() {
         <label>Idioma del bot: </label>
         <select onChange={handleChange}>
           <option defaultValue value="11ef44f1-9a36-4413-a55f-45388563b684">Español</option>
-          <option value="248f2384-cc8c-48dc-a972-4f2817647926">Ingles</option>
+          <option value="248f2384-cc8c-48dc-a972-4f2817647926">English</option>
         </select>
       </div>
       <div className="container">
         <div id="heading">
-          <h1>SINAC Bot Chat ({idBot == "11ef44f1-9a36-4413-a55f-45388563b684" ? "Español" : "Ingles"})</h1>
+          <h1>SINAC Bot Chat ({idBot == "11ef44f1-9a36-4413-a55f-45388563b684" ? "Español" : "English"})</h1>
         </div>
         <div ref={webchat} role="main" />
       </div>
